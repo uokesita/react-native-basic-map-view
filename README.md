@@ -1,5 +1,7 @@
 - Git clone the project
 
+FOR IOS
+
 - cd into the project and run 'npm install'
 
 - run 'npm install --save react-native-maps'
@@ -22,3 +24,15 @@
 
 This is based in the tutorial by Mario Díez
 You can fint it here: https://www.youtube.com/channel/UCisGMoxaVxJMcbio2FBHORg
+
+FOR ANDROID
+
+- Enable google maps services for android in the developer console
+- Create a credential for the google maps services 
+  https://console.developers.google.com/apis/credentials
+  
+- Add the credential on the AndroidManifest.xml file
+- The emulator has to have the google api enabled
+  https://cl.ly/2i2k0Y1m323D
+- Open the project in android studio and update all
+- Run 'react-native run-android'
