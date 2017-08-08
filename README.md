@@ -47,6 +47,6 @@ You can fint it here: https://www.youtube.com/channel/UCisGMoxaVxJMcbio2FBHORg
       new MainReactPackage(),
       new MapsPackage()
     );
-  }```
+  }
   
 - Run 'react-native run-android'
