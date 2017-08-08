@@ -35,4 +35,12 @@ FOR ANDROID
 - The emulator has to have the google api enabled
   https://cl.ly/2i2k0Y1m323D
 - Open the project in android studio and update all
+- Add to MainApplication.java
+  import com.airbnb.android.react.maps.MapsPackage;
+  protected List<ReactPackage> getPackages() {
+    return Arrays.<ReactPackage>asList(
+      new MainReactPackage(),
+      new MapsPackage()
+    );
+  }
 - Run 'react-native run-android'
